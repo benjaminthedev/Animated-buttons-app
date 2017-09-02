@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var dimBtn: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
       
@@ -25,14 +24,17 @@ class ViewController: UIViewController {
 
 
     @IBAction func coloriseBtnPressed(_ sender: Any) {
+        
     }
     
     
     @IBAction func wiggleBtnPressed(_ sender: Any) {
+        wiggleBtn.wiggle()
     }
     
     
     @IBAction func dimBtnPressed(_ sender: Any) {
+        dimBtn.dim()
     }
     
 

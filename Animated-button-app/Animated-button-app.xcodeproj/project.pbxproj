@@ -14,6 +14,7 @@
 		433407961F5A941B00C0CB9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433407941F5A941B00C0CB9F /* LaunchScreen.storyboard */; };
 		433407A11F5A941B00C0CB9F /* Animated_button_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433407A01F5A941B00C0CB9F /* Animated_button_appTests.swift */; };
 		433407AC1F5A941B00C0CB9F /* Animated_button_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433407AB1F5A941B00C0CB9F /* Animated_button_appUITests.swift */; };
+		433407BA1F5A993F00C0CB9F /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433407B91F5A993F00C0CB9F /* UIButtonExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		433407A71F5A941B00C0CB9F /* Animated-button-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animated-button-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		433407AB1F5A941B00C0CB9F /* Animated_button_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_button_appUITests.swift; sourceTree = "<group>"; };
 		433407AD1F5A941B00C0CB9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433407B91F5A993F00C0CB9F /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				433407921F5A941B00C0CB9F /* Assets.xcassets */,
 				433407941F5A941B00C0CB9F /* LaunchScreen.storyboard */,
 				433407971F5A941B00C0CB9F /* Info.plist */,
+				433407B91F5A993F00C0CB9F /* UIButtonExt.swift */,
 			);
 			path = "Animated-button-app";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4334078E1F5A941B00C0CB9F /* ViewController.swift in Sources */,
+				433407BA1F5A993F00C0CB9F /* UIButtonExt.swift in Sources */,
 				4334078C1F5A941B00C0CB9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
