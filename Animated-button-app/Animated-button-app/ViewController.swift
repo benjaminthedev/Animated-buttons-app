@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func coloriseBtnPressed(_ sender: Any) {
-        
+        coloriseBtn.colorise()
     }
     
     

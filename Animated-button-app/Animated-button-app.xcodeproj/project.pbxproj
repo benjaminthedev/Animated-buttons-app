@@ -15,6 +15,7 @@
 		433407A11F5A941B00C0CB9F /* Animated_button_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433407A01F5A941B00C0CB9F /* Animated_button_appTests.swift */; };
 		433407AC1F5A941B00C0CB9F /* Animated_button_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433407AB1F5A941B00C0CB9F /* Animated_button_appUITests.swift */; };
 		433407BA1F5A993F00C0CB9F /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433407B91F5A993F00C0CB9F /* UIButtonExt.swift */; };
+		433407BC1F5AA68F00C0CB9F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433407BB1F5AA68F00C0CB9F /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		433407AB1F5A941B00C0CB9F /* Animated_button_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_button_appUITests.swift; sourceTree = "<group>"; };
 		433407AD1F5A941B00C0CB9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		433407B91F5A993F00C0CB9F /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		433407BB1F5AA68F00C0CB9F /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				433407941F5A941B00C0CB9F /* LaunchScreen.storyboard */,
 				433407971F5A941B00C0CB9F /* Info.plist */,
 				433407B91F5A993F00C0CB9F /* UIButtonExt.swift */,
+				433407BB1F5AA68F00C0CB9F /* Helpers.swift */,
 			);
 			path = "Animated-button-app";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				4334078E1F5A941B00C0CB9F /* ViewController.swift in Sources */,
 				433407BA1F5A993F00C0CB9F /* UIButtonExt.swift in Sources */,
 				4334078C1F5A941B00C0CB9F /* AppDelegate.swift in Sources */,
+				433407BC1F5AA68F00C0CB9F /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

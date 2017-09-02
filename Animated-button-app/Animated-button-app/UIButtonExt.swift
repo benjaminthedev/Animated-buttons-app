@@ -29,4 +29,12 @@ extension UIButton{
             })
         }
     }
+    
+    func colorise(){
+        let randNumberArray = generateThreeRandNum(quantity: 3)
+        let randColor = UIColor(red: randNumberArray[0]/255, green: randNumberArray[1]/255, blue: randNumberArray[2]/255, alpha: 1.0)
+        UIView.animate(withDuration: 0.3) {
+            self.backgroundColor = randColor
+        }
+    }
 }
